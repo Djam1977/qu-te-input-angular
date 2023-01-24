@@ -1,0 +1,7 @@
+<p>{{dev.firstname}}</p>
+<p>{{dev.lastname}}</p>
+<p>{{dev.age}}</p>
+<p>{{dev.bio}}</p>
+<p>{{dev.gender}}</p>
+<p>{{dev.firstname}}</p>
+<app-skill *ngfor="let skill of dev.skills" [skillData] = "skill"></app-skill>
